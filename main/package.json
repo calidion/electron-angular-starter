@@ -1,0 +1,24 @@
+{
+  "name": "electron-angular-starter",
+  "version": "0.1.0",
+  "description": "An starter for electron project with angular in frontend.",
+  "main": "main.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calidion/electron-angular-starter.git"
+  },
+  "keywords": [
+    "electron",
+    "angular",
+    "starter",
+    "node.js"
+  ],
+  "author": "calidion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calidion/electron-angular-starter/issues"
+  },
+  "homepage": "https://github.com/calidion/electron-angular-starter#readme"
+}
