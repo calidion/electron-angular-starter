@@ -34,9 +34,12 @@ function createWindow(): BrowserWindow {
     });
     win.loadURL('http://localhost:4200');
   } else {
+    const pathname = path.join(__dirname, '../../frontend/dist/index.html');
+    console.log(pathname);
+
     win.loadURL(
       url.format({
-        pathname: path.join(__dirname, 'dist/index.html'),
+        pathname,
         protocol: 'file:',
         slashes: true,
       })
