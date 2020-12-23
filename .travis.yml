@@ -14,7 +14,7 @@ script:
   - cd angular
   - npm install
   - if [ "$TRAVIS_OS_NAME" != "windows" ]; then npm run test ; fi
-  - if [ "$TRAVIS_OS_NAME" != "windows" ]; then npm run e2e ; fi
+  # - if [ "$TRAVIS_OS_NAME" != "windows" ]; then npm run e2e ; fi
   - npm run build
   - cd ../electron
   - npm install
