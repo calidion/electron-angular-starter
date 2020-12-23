@@ -24,7 +24,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
-    "electron": "npm run build && electron ../output/frontend/dist/index.html",
+    "all": "cd ../angular && ng build && cd ../electron && npm run build && electron ../output/frontend/dist/index.html",
     "test": "jest",
     "coverage": "jest --coverage",
     "watch": "npm run build -- --watch",
