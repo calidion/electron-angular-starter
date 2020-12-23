@@ -1,6 +1,14 @@
+os:
+  - linux
+  - osx
+  - windows
 language: node_js
 node_js:
-  - 'node' # use latest stable nodejs version
+  - 'lts/*'
+services:
+  - xvfb
+before_script:
+  - export DISPLAY=:99.0
 script:
   - cd angular
   - npm install

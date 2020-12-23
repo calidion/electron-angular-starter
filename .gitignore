@@ -56,3 +56,5 @@
 
 /output
 
+/angular/package-lock.json
+/electron/package-lock.json
